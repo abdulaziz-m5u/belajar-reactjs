@@ -1,3 +1,5 @@
-# Mencetak tulisan hello world?
+> ## Package.json
 
-Cara menuliskan hello world di react js sangatlah mudah. Pergi ke folder src dan masuk buka file App.js disitulah kita bisa me render apa yang mau kita buat. contoh yang simple adalah menulis hello world !
+<img src="images/package.json.png" width="100%" height="400">
+
+Package.json merupakan tempat untuk menjelaskan tentang nama project, deskripsinya, versi dari project yang di buat.Disini juga tempat menyimpan library sesuai dengan versinya yang di gunakan pada project yang di buat dan Disinni juga tempat menulis script untuk menjalankan proses pengembangan atau untuk nge build ke production.
