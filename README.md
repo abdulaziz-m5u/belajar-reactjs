@@ -11,3 +11,37 @@ Package.json merupakan tempat untuk menjelaskan tentang nama project, deskripsin
 > file .gitignore adalah merupakan sebuah file yang berisi daftar nama-nama file dan direktori yang akan diabaikan oleh Git. maksudnya ketika akan mengupload file ke github contohnya maka akan di abaikan untuk di upload ke githubnya.
 
 > README.md merupakan adalah sebuah file yang berisi penjelasan/pengantar mengenai suatu project/software
+
+## Folder src
+
+- index.js
+
+index.js merupakan tempat kita memanggil atau me-render komponen utama dari aplikasi react ke dalam root yang ada di public/index.html
+
+- App.js
+
+App.js adalah komponen utama dari react yang dimana berfungsi sebagai container untuk semua component yang dibuat nantinya.
+
+- App.css (optional)
+
+App.css merupakan file untuk memberikan style css pada aplikasi react. File ini optional bisa dihapus atau tidak.
+
+- App.test.js (advanced, optional)
+
+App.test.js merupakan tempat untuk testing komponen apakah sudah di render sesuai dengan ekspektasi.
+
+- index.js (optional)
+
+index.js adalah tempat untuk memberikan style css pada aplikasi react. File ini fungsinya sama seperti App.css tapi beda tempat import aja di dalam react.
+
+- logo.svg (optional)
+
+logo.svg merupakan logo dari react itu sendiri.
+
+- reportWebVitals.js (advanced, optional)
+
+file ini merupakan tempat mengukur pengalaman user experience atau kemudahan user dalam mengakses aplikasi halaman web. Untuk pemula bisa di abaikan.
+
+- setupTests.js (advanced, optional)
+
+file ini tempat import test library yang dimana pada defaultnya dia meng-import '@testing-library/jest-dom'. file ini bisa dihapus untuk pemula atau yang masih bingung dengan bagaimana cara kerja testing di dalam pengembangan aplikasi react.js
