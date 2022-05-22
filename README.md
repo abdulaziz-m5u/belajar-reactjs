@@ -45,3 +45,27 @@ file ini merupakan tempat mengukur pengalaman user experience atau kemudahan use
 - setupTests.js (advanced, optional)
 
 file ini tempat import test library yang dimana pada defaultnya dia meng-import '@testing-library/jest-dom'. file ini bisa dihapus untuk pemula atau yang masih bingung dengan bagaimana cara kerja testing di dalam pengembangan aplikasi react.js
+
+## Folder public
+
+folder public ini mengatur file static seperti index.html, javascript file, images, dan assets lainnya.
+
+- index.html
+
+Di file index.html ini merupakan halaman utama yang di render oleh react js.Di dalamnya terdapat attribute id dengan value root yang dimana dapat di seleksi dengan teknik DOM (Document Object Model).
+
+- favicon.ico
+
+File ini adalah ikon utama yang muncul pada address bar suatu laman web dan merupakan logo dari react itu sendiri;
+
+- manifest.json
+
+Merupakan file yang menginformasikan tentang aplikasi seperti nama, pembuat, icon, description dll.
+
+- robots.txt
+
+Merupakan file teks yang dibuat oleh perancang untuk mencegah mesin pencari dan bot merayapi situs.
+
+## node_modules
+
+adalah folder yang menyimpan kumpulan library yang di install oleh npm.Biasanya node_modules ini tidak kita upload saat ingin menyimpan applikasinya ke github.
