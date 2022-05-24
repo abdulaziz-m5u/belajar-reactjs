@@ -1,16 +1,8 @@
 import './App.css';
-import ContohFunctionalComponent from './components/ContohFunctionalComponent';
-import ContohClassComponent from './components/ContohClassComponent';
+import JSX from './components/HelloJSX';
 
 function App() {
-  return (
-    <div>
-      <ContohFunctionalComponent />
-      <ContohClassComponent />
-      <ContohFunctionalComponent />
-      <ContohClassComponent />
-    </div>
-  );
+  return <JSX />;
 }
 
 export default App;

@@ -1,27 +1,17 @@
-# Component
+# Apa itu JSX
 
-Komponen merupakan bagian dari user interface.komponen bersifat reusable code atau bisa di gunakan berulang-ulang. Misalnya ketika membuat component button maka component tersebut bisa dipanggil berulang-ulang di setiap component lainnya.
+- singkatan dari javascript XML - extension untuk sintak dari javascript.
+- JSX digunakan untuk menulis komponent di react.
+- JSX mempunyai sebuah tag name, attributes, dan anak dari komponen.
+- JSX tidak hanya untuk menulis aplikasi react.
+- JSX membuat codingan react menjadi lebih simple dan elegant.
+- JSX nantinya akan di compile menjadi pure javascript yang dapat dimengerti oleh browsers.
 
-> Functional Components
+## Perbedaan JSX dengan HTML
 
-functional component merupakan javascript function dimana dapat menerima props sebagai argument dan mengembalikan react element.
-
-```
-const ContohComponent = () =>
-{
-    return <h1>Hello Function Component !</h1>;
-}
-```
-
-> Class Components
-
-Class component mengharuskan untuk extends component dari react itu sendiri dan menggunakan render method untuk mengembalikan html.
-
-```
-class ContohComponent extends React.Component
-{
-    render(){
-          return <h1>Hello Class Component !</h1>;
-    }
-}
-```
+- class ---> className
+- for ---> htmlFor
+- camelCase untuk properti html
+  - onclick ---> onClick
+  - onchange ---> onChange
+  - tabindex ---> tabIndex
